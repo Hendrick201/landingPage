@@ -1,0 +1,213 @@
+body
+{
+    background-color:black;
+    text-align: center;
+}
+*
+{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+tr
+{
+    display: block;
+}
+#imagePlaceHolder1
+{
+    width: 260px;
+    height: 460px;
+    background-image: url(/images/cat1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imagePlaceHolder2
+{
+    width: 260px;
+    height: 460px;
+    background-image: url(/images/cat1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#imagePlaceHolder3
+{
+    width: 260px;
+    height: 460px;
+    background-image: url(/images/cat1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#imagePlaceHolder4
+{
+    width: 260px;
+    height: 460px;
+    background-image: url(/images/cat1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#imagePlaceHolder5
+{
+    width: 260px;
+    height: 460px;
+    background-image: url(/images/cat1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#imagePlaceHolder6
+{
+    width: 260px;
+    height: 460px;
+    background-image: url(/images/cat1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#headerContrainer
+{
+    height: 720px;
+    background-image: url(/images/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top -500px left;
+    position: relative;
+}
+#menuTextContainer
+{
+
+    width: 380px;
+    height: 205px;
+    position: absolute;
+    right: 35%;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0.733);
+    border: 1px  solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+@keyframes linkFrame 
+{
+    to
+    {
+        font-size: 18px;
+        padding: 5px 10px 5px 10px;
+        
+    }
+    50%
+    {
+        font-size: 20px;
+        padding: 6px 10px 6px 10px;
+    }
+    from
+    {
+        font-size: 18px;
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+.link
+{
+   text-transform: uppercase;
+   border: 2px solid;
+   border-radius: 10px;
+   display: inline-block;
+   background-color:#f980730e;
+   position: absolute;
+   left: 15%;
+   margin-left: 15px;
+   padding: 5px 10px 5px 10px;
+   font-weight: bold;
+   font-size: large;
+   text-align: center;
+   width: 180px;
+   animation-name: linkFrame;
+   animation-duration: 1.2s;
+   animation-iteration-count: infinite;
+   color: white;
+   background-color: #f98173;
+   text-decoration: none;
+}
+.link:hover
+{
+    background-color: #fc7566;
+    animation-play-state: paused;
+}
+#firstP
+{
+    padding-bottom: 15px;
+}
+#timer
+{
+    background-color: rgb(20, 20, 20);
+    position: relative;
+
+    text-align: center;
+}
+#timerTable
+{
+    display: inline-block;
+    border-spacing: 10px;
+    transform: translateY(10%);
+
+}
+#timerContent
+{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+#timerText
+{
+   position: relative;
+   transform: translateY(-25%);
+    width: 260px;
+    text-align: left;
+    display: inline-block;
+   
+}
+h2
+{
+    font-size: 30px;
+    color: rgb(166, 255, 32);
+}
+p
+{
+    font-size: 18px;
+}
+td
+{
+    width: 80px;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+
+}
+.time
+{
+    background-color: rgb(138, 214, 25);
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    color: rgb(255, 32, 32);
+}
+#timerP
+{
+    color: white;
+}
+.bodyTitles
+{
+    color: white;
+}
+
+
