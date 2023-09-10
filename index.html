@@ -13,7 +13,7 @@
             <div id="menuTextContainer">
                 <h1>Lorem Ipsum</h1>
                 <p id="firstP">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <a class="link" href="">Lorem Ipsum</a>
+                <a id="headerLink" class="link" href="https://api.whatsapp.com/send/?phone=553496704967&text=Olá%2C+quero+saber+Mais&type=phone_number&app_absent=0">Lorem Ipsum</a>
             </div>
         </div>
     </header>
@@ -43,30 +43,43 @@
                    
                 </div>
               <div id="mediaShow">
-                <h2 class="bodyTitles">Lorem Ipsum</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <div id="mediaDiv">
+                    <h2 class="bodyTitles">Lorem Ipsum</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                
                 <iframe width="1080" height="720" src="https://www.youtube.com/embed/5T3PM5KAeTI?si=E-oqHtniH4WSp9sC&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <a class="link" href="">Lorem Ipsum</a>
+                <p style="margin-top: 15px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a id="bodyLink"  class="link" href="https://api.whatsapp.com/send/?phone=553496704967&text=Olá%2C+quero+saber+Mais&type=phone_number&app_absent=0">Lorem Ipsum</a>
               </div>
+              
               <div id="intermediate">
-                <h2 class="bodyTitles">Lorem Ipsum</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <ul>
-                    <li><b>Lorem Ipsum</b></li>
-                    <li><b>Lorem Ipsum</b></li>
-                    <li><b>Lorem Ipsum</b></li>
-                    <li><b>Lorem Ipsum</b></li>
-                    <li><b>Lorem Ipsum</b></li>
-                    <li><b>Lorem Ipsum</b></li>
-                    <li><b>Lorem Ipsum</b></li>
+                <div id="intermediateChild">
+                    <h2 style="color: rgb(17, 17, 17);" class="bodyTitles">Lorem Ipsum</h2>
+                <p style="color: rgb(17, 17, 17);">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <ul >
+                    <li ><b style="color:rgb(17, 17, 17);">Lorem Ipsum</b></li>
+                    <li><b style="color:rgb(17, 17, 17);">Lorem Ipsum</b></li>
+                    <li><b style="color: rgb(17, 17, 17);">Lorem Ipsum</b></li>
+                    <li><b style="color: rgb(17, 17, 17);">Lorem Ipsum</b></li>
+                    <li><b style="color: rgb(17, 17, 17);">Lorem Ipsum</b></li>
+                    <li><b style="color: rgb(17, 17, 17);">Lorem Ipsum</b></li>
+                    <li><b style="color: rgb(17, 17, 17);">Lorem Ipsum</b></li>
                 </ul>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <a class="link" href="">Lorem Ipsum</a>
+                <p style="color: rgb(17, 17, 17);">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <a style="border-color: rgb(17, 17, 17);" id="bodyLink"  class="link" href="https://api.whatsapp.com/send/?phone=553496704967&text=Olá%2C+quero+saber+Mais&type=phone_number&app_absent=0">Lorem Ipsum</a>
+                </div>
+                <div style="width: 100%; height: 20px; background-color: #26b807; position: fixed; bottom: 0%;">
+                </div>
               </div>
               <div id="socialProv">
-                <h2 class="bodyTitles">Lorem Ipsum</h2>
+                <div id="bottomStyle"></div>
+                <div id="socialProvC">
+                    <h2 class="bodyTitles">Lorem Ipsum</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <table>
+                </div>
+                
+                <table id="socialPovTable">
                     <tr>
                         <td><div id="imagePlaceHolder1"></div></td>
                         <td><div id="imagePlaceHolder2"></div></td>
@@ -79,17 +92,72 @@
                         <td><div id="imagePlaceHolder6"></div></td>
                     </tr>
                 </table>
-                <a class="link" href="">Lorem Ipsum</a>
+                <a style="margin-top: 30px;" id="bodyLink"  class="link" href="https://api.whatsapp.com/send/?phone=553496704967&text=Olá%2C+quero+saber+Mais&type=phone_number&app_absent=0">Lorem Ipsum</a>
+              </div>
+              <div id="questionsContainer">
+                <div id="questionsC">
+                    <h2 class="bodyTitles">Lorem Ipsum</h2>
+                    <table id="questionTable">
+                        <tr onclick="setResponse(0)" class="questionTr">
+                            <td><button class="questionButtons"></button></td>
+                            <td class="questionTd">Lorem Ipsum?</td>
+                        </tr>
+                        <tr class="responseTr">
+                            <td class="responseTd">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                        </tr>
+                        <tr onclick="setResponse(1)" class="questionTr">
+                            <td><button class="questionButtons"></button></td>
+                            <td class="questionTd">Lorem Ipsum?</td>
+                        </tr>
+                        <tr class="responseTr">
+                            <td class="responseTd">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                        </tr>
+                        <tr onclick="setResponse(2)" class="questionTr">
+                            <td><button class="questionButtons"></button></td>
+                            <td class="questionTd">Lorem Ipsum?</td>
+                        </tr>
+                        <tr class="responseTr">
+                            <td class="responseTd">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                        </tr>
+                        <tr onclick="setResponse(3)" class="questionTr">
+                            <td><button class="questionButtons"></button></td>
+                            <td class="questionTd">Lorem Ipsum?</td>
+                        </tr>
+                        <tr class="responseTr">
+                            <td class="responseTd">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                        </tr>
+                        <tr onclick="setResponse(4)" class="questionTr">
+                            <td><button class="questionButtons"></button></td>
+                            <td class="questionTd">Lorem Ipsum?</td>
+                        </tr>
+                        <tr class="responseTr">
+                            <td class="responseTd">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                        </tr>
+                        <tr onclick="setResponse(5)" class="questionTr">
+                            <td><button class="questionButtons"></button></td>
+                            <td class="questionTd">Lorem Ipsum?</td>
+                        </tr>
+                        <tr class="responseTr">
+                            <td class="responseTd">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                        </tr>
+                    </table>
+                </div>
               </div>
               <div id="lastInfo">
-                <h2 class="bodyTitles">Lorem Ipsum</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div id="lastInfoC">
+                    <h2 style="color: #26b807;" class="bodyTitles">Lorem Ipsum</h2>
+                    <p style="color: #26b807;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </div>
+                
                     <img id="lastImage" width="180px" src="./images/garantia.png" alt="">
-                    <img src="./images/Selo-Compra-Segura-Preto.png.png" alt="">
+                    <img width="800px" src="./images/Selo-Compra-Segura-Preto.png.png" alt="">
               </div>
             </div>
         </div>
     </main>
     <footer><b>Copyright ®</b> - Seu Negócio  Todos os direitos reservados.</footer>
+    <div>
+        <a id="whatsapp" href="https://api.whatsapp.com/send/?phone=553496704967&text=Olá%2C+quero+saber+Mais&type=phone_number&app_absent=0"><img width="60px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt=""></a>
+    </div>
 </body>
 </html>

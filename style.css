@@ -2,6 +2,8 @@ body
 {
     background-color:black;
     text-align: center;
+    position: relative;
+    overflow-x: hidden;
 }
 *
 {
@@ -14,6 +16,7 @@ body
 tr
 {
     display: block;
+    margin-top: 10px;
 }
 #imagePlaceHolder1
 {
@@ -80,14 +83,15 @@ tr
     background-image: url(./images/main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top -500px left;
+    background-position: center;
     position: relative;
+    text-align: left;
 }
 #menuTextContainer
 {
 
     width: 380px;
-    height: 205px;
+    height: 260px;
     position: absolute;
     right: 35%;
     top: 10%;
@@ -100,18 +104,18 @@ tr
 {
     to
     {
-        font-size: 18px;
+        font-size: 20px;
         padding: 5px 10px 5px 10px;
         
     }
     50%
     {
-        font-size: 20px;
+        font-size: 22px;
         padding: 6px 10px 6px 10px;
     }
     from
     {
-        font-size: 18px;
+        font-size: 20px;
         padding: 5px 10px 5px 10px;
     }
 }
@@ -121,11 +125,8 @@ tr
    text-transform: uppercase;
    border: 2px solid;
    border-radius: 10px;
-   display: inline-block;
+   display: block;
    background-color:#f980730e;
-   position: absolute;
-   left: 15%;
-   margin-left: 15px;
    padding: 5px 10px 5px 10px;
    font-weight: bold;
    font-size: large;
@@ -137,6 +138,18 @@ tr
    color: white;
    background-color: #f98173;
    text-decoration: none;
+}
+#bodyLink
+{
+    margin-top: 15px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#headerLink
+{
+   position: absolute;
+   left: 15%;
 }
 .link:hover
 {
@@ -170,7 +183,6 @@ tr
 #timerText
 {
    position: relative;
-   transform: translateY(-25%);
     width: 260px;
     text-align: left;
     display: inline-block;
@@ -178,23 +190,23 @@ tr
 }
 h2
 {
-    font-size: 30px;
-    color: rgb(166, 255, 32);
+    font-size: 33px;
+    color: #26b807;
 }
 p
 {
-    font-size: 18px;
+    font-size: 22px;
 }
 td
 {
     width: 80px;
     font-size: 20px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
 
 }
 .time
 {
-    background-color: rgb(138, 214, 25);
+    background-color: #26b807;
     border-radius: 10px;
     font-size: 50px;
     font-weight: bold;
@@ -209,5 +221,210 @@ td
 {
     color: white;
 }
+#mediaShow
+{
+    margin: 10px;
+   height: 990px;
+
+}
+
+#mediaDiv
+{
+margin-top: 10px;
+margin-bottom: 20px;
+width: 680px;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+}
+#intermediate
+{
+    width: 600px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: white;
+    height: 550px;
+    padding-top: 10px;
+
+}
+li
+{
+    list-style: none;
+    font-size: 20px;
+}
+#intermediateChild
+{
+    width: 800px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ul
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#socialProv
+{
+    background-color: rgb(20, 20, 20);
+    height: 1250px;
+    position: relative;
+}
+#bottomStyle
+{
+    width: 1000px;
+    background-color: black;
+    height: 20px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+#socialProvC
+{
+    padding: 20px;
+    padding-top: 40px;
+}
+#socialPovTable
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#lastInfo
+{
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    padding: 40px;
+}
+#lastInfoC
+{
+    width: 700px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 20px;
+}
+#lastImage
+{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-20%,-50%);
+    width: 300px;
+  
+}
+#whatsapp
+{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
+#questionTable
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding:  50px;
+
+}
+#questionTable tr
+{
+    border-collapse: collapse;
+    text-align: left;
+    border: 1px solid white;
+}
+.questionTd 
+{
+    width: 600px;
+    transform: translateX(-45px);
+    padding: 5px;
+    font-weight: bold;
+}
+#questionsC
+{
+    padding-top: 20px;
+}
+.questionButtons
+{
+    margin-left: 10px;
+    width: 20px; 
+    height: 20px; 
+    background-color: white;
+    border-radius: 5px;
+    background-image: url(./images/down.png);
+    background-size: cover;
+
+}
+.questionTr:hover
+{
+    cursor: pointer;
+}
+.questionButtons:hover
+{
+    cursor: pointer;
+}
+.responseTd
+{
+    border-collapse: collapse;
+    padding: 5px 0px 5px 20px;
+    color: rgb(201, 201, 201);
+    width: 600px;
+}
+@keyframes questionsFrame 
+{
+    from
+    {
+            height: 0px;
+        opacity: 0%;
+    }
+    to
+    {
+        opacity: 100%;
+        height: 65px;
+        display: block;
+    }
+    
+}
+@keyframes questionsFrameBack
+{
+    to
+    {
+            height: 0px;
+        opacity: 0%;
+    }
+    from
+    {
+        opacity: 100%;
+        height: 65px;
+        display: none;
+    }
+    
+}
+.responseTr
+{
+    height: 65px;
+    overflow: hidden;
+    display: none;
+    
+}
+.show
+{
+    animation-name: questionsFrame;
+    animation-duration: 0.5s;
+   
+}
+
+.hidden
+{
+    animation-name: questionsFrameBack;
+    animation-duration: 0.5s;
+  
+}
+
 
 
